@@ -12,3 +12,5 @@ pyvenv.cfg
 *.parquet
 *.xlsx
 *.png
+.DS_Store
+.DS_Store
