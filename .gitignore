@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+*.parquet
+*.xlsx
+*.png
