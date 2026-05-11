@@ -107,9 +107,9 @@ Structure
 * results/ → saved weights, returns, turnover, plots, tables
 * main.py → data generation and backtest
 * notebooks/ → analysis and visualization
-**Note**: the `results/` folder contains only plots. 
-Data files (.parquet) are excluded from the repository as they are 
-fully reproducible by running `src/cleaning.py` followed by `main.py`.
+**Note**: the `results/` folder contains only plots.
+Data files (.parquet) are excluded from the repository as they are
+fully reproducible by running `main.py`.
 
 ⸻
 
