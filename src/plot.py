@@ -23,7 +23,6 @@ def strategycomparison(returns_gmv: dict, returns_rp: dict, returns_eq: dict, me
         rc={
             "axes.spines.top": False,
             "axes.spines.right": False,
-            "figure.figsize": (12, 5),
             "axes.grid": True,
             "grid.alpha": 0.4
             })
@@ -53,7 +52,6 @@ def windoweffect(returns: dict, method, window: list, frequency):
     rc={
         "axes.spines.top": False,
         "axes.spines.right": False,
-        "figure.figsize": (12, 5),
         "axes.grid": True,
         "grid.alpha": 0.4
         })
@@ -81,7 +79,6 @@ def shrinkageeffect(returns: dict, method: list, window, frequency):
     rc={
         "axes.spines.top": False,
         "axes.spines.right": False,
-        "figure.figsize": (12, 5),
         "axes.grid": True,
         "grid.alpha": 0.4
         })
@@ -110,7 +107,6 @@ def drawdownplot(returns_gmv: pd.DataFrame, returns_rp: pd.DataFrame, returns_eq
     rc={
         "axes.spines.top": False,
         "axes.spines.right": False,
-        "figure.figsize": (12, 5),
         "axes.grid": True,
         "grid.alpha": 0.4
         })
