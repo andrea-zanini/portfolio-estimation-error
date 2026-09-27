@@ -1,16 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-*.egg-info/
-.env
-venv/
-env/
-bin/
-lib/
-include/
-share/
-pyvenv.cfg
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
 *.parquet
 *.xlsx
-*.png
-.DS_Store
-.DS_Store
+
+# Generated results
+results/
